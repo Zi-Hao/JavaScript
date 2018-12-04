@@ -21,4 +21,4 @@ function displayCitiations(){
         elem.appendChild(superscript);
     }
 }
-addLoadEvent(displayCitations);
+addLoadEvent(displayCitiations);
