@@ -6,14 +6,14 @@
     <script>
         window.onload = function(){
             var para = document.getElementById("example");
-            alert(typeof para.nodeName);
-            alert(typeof para.style);
+            alert("The font family is"+ para.style.fontSize);
 
         }
     </script>
 </head>
 <body>
-    <p id="example" style="color: grey; font-family: 'Arial',sans-serif;">
+    <p id="example" style="color:#999999; font-family: 'Arial',sans-serif;
+    font-size:1em;">
         An example of a paragraph
     </p>
 
