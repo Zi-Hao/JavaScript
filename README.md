@@ -1,2 +1,2 @@
 # JavaScript
-自我学习使用，存放学习代码
+用JavaScript实现动画效果
