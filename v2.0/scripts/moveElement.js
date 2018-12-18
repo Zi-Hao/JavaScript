@@ -12,16 +12,20 @@ function moveElement(elementID,final_x,final_y,interval) {
         return true;
     }
     if (xpos < final_x) {
-        xpos++;
+        dist = Math.ceil((final_x-xpos)/10);
+        xpos = xpos + dist;
     }
     if (xpos > final_x) {
-        xpos--;
+        dist = Math.ceil((xpos-final_x)/10);
+        xpos = xpos - dist;
     }
     if (ypos < final_y) {
-        ypos++;
+        dist = Math.ceil((final_y-ypos)/10);
+        ypos = ypos + dist;
     }
     if (ypos > final_y) {
-        ypos--;
+        dist = Math.ceil((ypos-final_y)/10);
+        ypos = ypos - dist;
     }
     elem.style.left = xpos + "px";
     elem.style.top = ypos + "px";
