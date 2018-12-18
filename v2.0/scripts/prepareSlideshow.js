@@ -8,8 +8,6 @@ function prepareSlideshow(){
     //为图片应用样式
     var preview = document.getElementById("preview");
     preview.style.position = "absolute";
-    preview.style.left = "0px";
-    preview.style.top = "0px";
     //取得列表中的所有链接
     var list = document.getElementById("linklist");
     var links = list.getElementsByTagName("a");
